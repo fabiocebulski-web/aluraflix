@@ -37,3 +37,20 @@ padding-top: 80px;
 h1{
     font-size: 25px;
 }
+
+.categoria-videos{
+display:flex;
+overflow-x: auto;
+gap: 10px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 160px;
+
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: solid 4px; color: rgb(156, 238, 178);
+}
